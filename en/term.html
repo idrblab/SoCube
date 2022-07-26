@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · SoCube user manual</title>
+        <title>Terminology · SoCube user manual</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -73,8 +73,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="./" />
+    <link rel="next" href="reference.html" />
     
+    
+    <link rel="prev" href="6-parameters.html" />
     
 
     </head>
@@ -103,7 +105,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -406,7 +408,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="term.html">
+        <li class="chapter active" data-level="1.7" data-path="term.html">
             
                 <a href="term.html">
             
@@ -462,7 +464,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >Terminology</a>
     </h1>
 </div>
 
@@ -477,14 +479,53 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="introduction">Introduction</h1>
-<figure id="fig1.1.1"><img src="assets/workflow.svg" alt="SoCube workflow"><figcaption>SoCube workflow</figcaption></figure>
-<h2 id="11-basic-information">1.1 Basic Information</h2>
-<p>SoCube V1.0 is terminal command-based software written in Python without a graphical user interface (GUI), and can run on any server, personal computer, which can run the Python program.</p>
-<h2 id="12-writing-purpose">1.2 Writing Purpose</h2>
-<p>This gitbook is a user&apos;s guide for SoCube V1.0. It will introduce the requirement, installment and usage of SoCube V1.0. Besides, it provides some common problems&apos; solutions when using SoCube.</p>
-<h2 id="13-background">1.3 Background</h2>
-<p>High-throughput single-cell RNA sequencing (scRNA-seq) is widely used in biomedical research [1-6]. However, due to the limitations of sequencing technology, some doublets (or multiplets) formed by the combination of two (or more) cells will be generated during the sequencing process. Doublets are equivalent to the cell types not present in the sample and can severely interfere with the true statistical distribution of cells and genes, thus affecting distribution-dependent downstream studies [7]. Therefore, the Laboratory of Innovative Drug Research and Bioinformatics at Zhejiang University (hereinafter referred to as &quot;we&quot;) developed SoCube to detect doublets generated in single-cell high-throughput sequencing.</p>
+                                <h1 id="terminology">Terminology</h1>
+<table>
+<thead>
+<tr>
+<th>Terminology</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU</td>
+<td>Computer terminology. Central process unit, which is often referred to as the core part of the computer chip. It is responsible for the scheduling and operation of the entire computer.</td>
+</tr>
+<tr>
+<td>GPU</td>
+<td>Computer terminology. Graphics process unit, which is often referred to as the core part of a graphics card. It is responsible for the conversion of digital signals to image analog signals, while modern GPUs can be used for computational acceleration of deep learning models for artificial intelligence.</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>Computer terminology. Random access memory, which is often referred to as a kind of memory. It can be accessed efficiently, but cannot save data after a power failure.</td>
+</tr>
+<tr>
+<td>pip</td>
+<td>Computer terminology. A build-in package manager for the Python, used to install SoCube V1.0.</td>
+</tr>
+<tr>
+<td>docker</td>
+<td>Computer terminology. A technology that isolates application software and its dependent software environment from the physical machine.</td>
+</tr>
+<tr>
+<td>SMTP</td>
+<td>Computer terminology. Simple mail transfer protocol, a mail service by which mail providers allow operations from third-party mail clients by supporting the protocol.</td>
+</tr>
+<tr>
+<td>scRNA-seq</td>
+<td>Bioinformatics terminology. Single-cell RNA sequencing. which is used to detect the expression of genes in a single cell.</td>
+</tr>
+<tr>
+<td>CNN</td>
+<td>Artificial intelligence terminology. Convolutional neural network, one of the most common types of artificial intelligence models for image-like data. SoCube uses CNNs to build its models.</td>
+</tr>
+<tr>
+<td>WSL</td>
+<td>Computer terminology. Windows subsystem linux, the linux subsystem developed by Microsoft, similar to the virtual machines provided by third parties such as VMare.</td>
+</tr>
+</tbody>
+</table>
 
 <script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
                                 
@@ -513,8 +554,12 @@
 
             
                 
+                <a href="6-parameters.html" class="navigation navigation-prev " aria-label="Previous page: Parameters">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="./#11-basic-information" class="navigation navigation-next navigation-unique" aria-label="Next page: 1.1 Basic Information">
+                
+                <a href="reference.html" class="navigation navigation-next " aria-label="Next page: Reference">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -525,7 +570,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"1.1 Basic Information","level":"1.1.1","depth":2,"anchor":"#11-basic-information","path":"README.md","ref":"README.md#11-basic-information","articles":[]},"dir":"ltr"},"config":{"plugins":["-livereload","folding-chapters-2","tabs2","popup","code","github","splitter","sharing","prism","image-captions-extended","search-plus","-highlight","-search","-lunr"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/GCS-ZHN/socube"},"splitter":{},"image-captions-extended":{},"popup":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"tabs2":{},"folding-chapters-2":{},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"search-plus":{},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","list_caption":"Figure: SoCube workflow","alt":"SoCube workflow","nro":1,"url":"assets/workflow.svg","index":1,"caption_template":"_CAPTION_","label":"SoCube workflow","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"3-install.html#fig1.3.1","level":"1.3","list_caption":"Figure: NVIDIA cuda download page","alt":"NVIDIA cuda download page","nro":2,"url":"assets/fig7.png","index":1,"caption_template":"_CAPTION_","label":"NVIDIA cuda download page","attributes":{},"skip":false,"key":"1.3.1"},{"backlink":"3-install.html#fig1.3.2","level":"1.3","list_caption":"Figure: output of nvidia-smi","alt":"output of nvidia-smi","nro":3,"url":"assets/fig8.png","index":2,"caption_template":"_CAPTION_","label":"output of nvidia-smi","attributes":{},"skip":false,"key":"1.3.2"},{"backlink":"3-install.html#fig1.3.3","level":"1.3","list_caption":"Figure: Python official website","alt":"Python official website","nro":4,"url":"assets/fig1.png","index":3,"caption_template":"_CAPTION_","label":"Python official website","attributes":{},"skip":false,"key":"1.3.3"},{"backlink":"3-install.html#fig1.3.4","level":"1.3","list_caption":"Figure: Python installation page","alt":"Python installation page","nro":5,"url":"assets/fig2.png","index":4,"caption_template":"_CAPTION_","label":"Python installation page","attributes":{},"skip":false,"key":"1.3.4"},{"backlink":"3-install.html#fig1.3.5","level":"1.3","list_caption":"Figure: Run powershell","alt":"Run powershell","nro":6,"url":"assets/fig3.png","index":5,"caption_template":"_CAPTION_","label":"Run powershell","attributes":{},"skip":false,"key":"1.3.5"},{"backlink":"4-usage.html#fig1.4.1","level":"1.4","list_caption":"Figure: Start-up socube","alt":"Start-up socube","nro":7,"url":"assets/fig5.png","index":1,"caption_template":"_CAPTION_","label":"Start-up socube","attributes":{},"skip":false,"key":"1.4.1"},{"backlink":"4-usage.html#fig1.4.2","level":"1.4","list_caption":"Figure: CSV file of final_result","alt":"CSV file of final_result","nro":8,"url":"assets/fig6.png","index":2,"caption_template":"_CAPTION_","label":"CSV file of final_result","attributes":{},"skip":false,"key":"1.4.2"},{"backlink":"4-usage.html#fig1.4.3","level":"1.4","list_caption":"Figure: Available image","alt":"Available image","nro":9,"url":"assets/fig11.png","index":3,"caption_template":"_CAPTION_","label":"Available image","attributes":{},"skip":false,"key":"1.4.3"},{"backlink":"4-usage.html#fig1.4.4","level":"1.4","list_caption":"Figure: colab","alt":"colab","nro":10,"url":"assets/fig10.png","index":4,"caption_template":"_CAPTION_","label":"colab","attributes":{},"skip":false,"key":"1.4.4"},{"backlink":"6-parameters.html#fig1.6.1","level":"1.6","list_caption":"Figure: SoCube help","alt":"SoCube help","nro":11,"url":"assets/fig9.png","index":1,"caption_template":"_CAPTION_","label":"SoCube help","attributes":{},"skip":false,"key":"1.6.1"}]},"title":"SoCube user manual","language":"en","gitbook":"*"},"file":{"path":"README.md","mtime":"2022-07-26T14:41:09.939Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-07-26T14:42:06.695Z"},"basePath":".","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Terminology","level":"1.7","depth":1,"next":{"title":"Reference","level":"1.8","depth":1,"path":"reference.md","ref":"reference.md","articles":[]},"previous":{"title":"Parameters","level":"1.6","depth":1,"path":"6-parameters.md","ref":"6-parameters.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-livereload","folding-chapters-2","tabs2","popup","code","github","splitter","sharing","prism","image-captions-extended","search-plus","-highlight","-search","-lunr"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/GCS-ZHN/socube"},"splitter":{},"image-captions-extended":{},"popup":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"tabs2":{},"folding-chapters-2":{},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"search-plus":{},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","list_caption":"Figure: SoCube workflow","alt":"SoCube workflow","nro":1,"url":"assets/workflow.svg","index":1,"caption_template":"_CAPTION_","label":"SoCube workflow","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"3-install.html#fig1.3.1","level":"1.3","list_caption":"Figure: NVIDIA cuda download page","alt":"NVIDIA cuda download page","nro":2,"url":"assets/fig7.png","index":1,"caption_template":"_CAPTION_","label":"NVIDIA cuda download page","attributes":{},"skip":false,"key":"1.3.1"},{"backlink":"3-install.html#fig1.3.2","level":"1.3","list_caption":"Figure: output of nvidia-smi","alt":"output of nvidia-smi","nro":3,"url":"assets/fig8.png","index":2,"caption_template":"_CAPTION_","label":"output of nvidia-smi","attributes":{},"skip":false,"key":"1.3.2"},{"backlink":"3-install.html#fig1.3.3","level":"1.3","list_caption":"Figure: Python official website","alt":"Python official website","nro":4,"url":"assets/fig1.png","index":3,"caption_template":"_CAPTION_","label":"Python official website","attributes":{},"skip":false,"key":"1.3.3"},{"backlink":"3-install.html#fig1.3.4","level":"1.3","list_caption":"Figure: Python installation page","alt":"Python installation page","nro":5,"url":"assets/fig2.png","index":4,"caption_template":"_CAPTION_","label":"Python installation page","attributes":{},"skip":false,"key":"1.3.4"},{"backlink":"3-install.html#fig1.3.5","level":"1.3","list_caption":"Figure: Run powershell","alt":"Run powershell","nro":6,"url":"assets/fig3.png","index":5,"caption_template":"_CAPTION_","label":"Run powershell","attributes":{},"skip":false,"key":"1.3.5"},{"backlink":"4-usage.html#fig1.4.1","level":"1.4","list_caption":"Figure: Start-up socube","alt":"Start-up socube","nro":7,"url":"assets/fig5.png","index":1,"caption_template":"_CAPTION_","label":"Start-up socube","attributes":{},"skip":false,"key":"1.4.1"},{"backlink":"4-usage.html#fig1.4.2","level":"1.4","list_caption":"Figure: CSV file of final_result","alt":"CSV file of final_result","nro":8,"url":"assets/fig6.png","index":2,"caption_template":"_CAPTION_","label":"CSV file of final_result","attributes":{},"skip":false,"key":"1.4.2"},{"backlink":"4-usage.html#fig1.4.3","level":"1.4","list_caption":"Figure: Available image","alt":"Available image","nro":9,"url":"assets/fig11.png","index":3,"caption_template":"_CAPTION_","label":"Available image","attributes":{},"skip":false,"key":"1.4.3"},{"backlink":"4-usage.html#fig1.4.4","level":"1.4","list_caption":"Figure: colab","alt":"colab","nro":10,"url":"assets/fig10.png","index":4,"caption_template":"_CAPTION_","label":"colab","attributes":{},"skip":false,"key":"1.4.4"},{"backlink":"6-parameters.html#fig1.6.1","level":"1.6","list_caption":"Figure: SoCube help","alt":"SoCube help","nro":11,"url":"assets/fig9.png","index":1,"caption_template":"_CAPTION_","label":"SoCube help","attributes":{},"skip":false,"key":"1.6.1"}]},"title":"SoCube user manual","language":"en","gitbook":"*"},"file":{"path":"term.md","mtime":"2022-07-26T14:41:09.951Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-07-26T14:42:06.695Z"},"basePath":".","book":{"language":"en"}});
         });
     </script>
 </div>
