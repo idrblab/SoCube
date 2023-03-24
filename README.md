@@ -8,7 +8,7 @@
 <img src="fig/workflow.svg" alt="SoCube Workflow">
 
 ## Introduction
-SoCube is an end-to-end doublet detection tool with novel feature embedding strategy. [User manual](https://www.gcszhn.top/socube/) is published on this repo's github page.
+SoCube [soʊ'kjuːb] is an end-to-end doublet detection tool with novel feature embedding strategy. [User manual](https://www.gcszhn.top/socube/) is published on this repo's github page.
 
 ## Installment
 You can just install socube by executing pip command. 
